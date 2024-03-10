@@ -54,8 +54,6 @@ def sync_folders(source_folder, replica_folder, log_file):
                 print(f'Removed directory {replica_dir_path}.')
                 log_file.write(f'Removed directory {replica_dir_path}.\n')
 
-        log_file.flush()
-
 
 if __name__ == "__main__":
     # Check if all command line arguments are provided
